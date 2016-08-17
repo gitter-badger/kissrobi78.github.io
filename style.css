@@ -1,4 +1,4 @@
-* {font-family:"HelveticaNeueETW01-55Rg";font-size:0.75em;color:#000}
+* {font-family:"HelveticaNeueETW01-55Rg";font-size:1em;color:#000}
 body{line-height:175%}
 body > .container {border:1px solid red}
 .navigation {position: relative;float: left}
