@@ -11,7 +11,7 @@ li.menu.products-menu.level0,li.menu.company-menu.level0 {text-align: center}
 li.menu.mytyphoon-menu.level0 {text-align: right}
 @media (min-width:1200px) {
     body > .container {width: 1050px;margin: 0 auto}
-    ul.menu{position: relative;float: left;width: 490px}
+    ul.menu{position: relative;float: left;width: 490px;margin-top:40px;margin-bottom: 0}
     li.menu.mytyphoon-menu.level0,li.menu.applications-menu.level0 {width: 20%}
     li.menu.products-menu.level0,li.menu.company-menu.level0 {width: 80%}
 }
