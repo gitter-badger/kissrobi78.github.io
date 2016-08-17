@@ -3,7 +3,7 @@ html,body {margin:0;padding:0}
 html,body,.container {height:100%}
 body{line-height:175%}
 body > .container {border:1px solid red}
-.navigation {position: relative;float: left}
+.navigation {position: relative;float: left;margin-top:15px}
 .logo {position: relative;float: left;width: 70px}
 .logo > a {font-size: 0.65em;line-height: 0.65em;text-decoration: none}
 .logo span {position: absolute;top: 45px}
