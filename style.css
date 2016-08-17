@@ -1,6 +1,5 @@
 * {font-family:"HelveticaNeueETW01-55Rg";font-size:1em;color:#000}
 body{line-height:175%;}
-# DECLARE MEDIA
 @media (min-width:1200px) {
     body > .container {width: 1050px;margin: 0 auto;}
 }
