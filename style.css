@@ -1,14 +1,19 @@
-* {font-family:"HelveticaNeueETW01-55Rg";font-size:1em;color:#000}
+* {font-family:"HelveticaNeueETW01-55Rg";font-size:0.75em;color:#000}
 body{line-height:175%}
 body > .container {border:1px solid red}
+.navigation {position: relative;float: left}
 .logo {position: relative;float: left;width: 70px}
+.logo > a {font-size: 0.65em;line-height: 0.65em;text-decoration: none}
+.logo > span {}
 ul.menu {list-style: none;padding-left: 0}
-li.menu.level0 {width: 50%;float: left}
+li.menu.level0 {float: left;font-size: 0.75em}
 li.menu.products-menu.level0,li.menu.company-menu.level0 {text-align: center}
 li.menu.mytyphoon-menu.level0 {text-align: right}
 @media (min-width:1200px) {
     body > .container {width: 1050px;margin: 0 auto}
     ul.menu{position: relative;float: left;width: 490px}
+    li.menu.mytyphoon-menu.level0,li.menu.applications-menu.level0 {width: 20%}
+    li.menu.products-menu.level0,li.menu.company-menu.level0 {width: 80%}
 }
 @media (min-width:992px) and (max-width:1199px) {
     body > .container {width: 970px;margin: 0 auto}
