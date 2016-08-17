@@ -8,6 +8,7 @@ li.menu.products-menu.level0,li.menu.comany-menu.level0 {text-align: center}
 li.menu.mytyphoon-menu.level0 {text-align: right}
 @media (min-width:1200px) {
     body > .container {width: 1050px;margin: 0 auto}
+    ul.menu{position: relative;float: left;width: 45%}
 }
 @media (min-width:992px) and (max-width:1199px) {
     body > .container {width: 970px;margin: 0 auto}
