@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Scroll</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+      .col-xs-12 {width:252px}
+      .module.front-cta-window-container-webinars {overflow:hidden;height:508px}
+      .custom.front-cta-window-container-webinars {border:1px solid red;position:relative;top:0}
+      .front-cta {width:250px;height:250px;position:relative;border:1px solid;margin:0 0 2.5px}
+      .white-overlay {position:absolute;bottom:0;left:0;height:120px;background:rgba(255,255,255,0.75);color:#000;font-family:Arial;line-height:125%}
+      #Mod269 {position:relative;visibility:hidden}
+      #Mod289 {position:absolute;visibility:visible}
+      #Mod293 {position:absolute;visibility:hidden}
+      .scroll-position {position:absolute;top:80%}
+      .count-windows {position:absolute;top:90%}
+    </style>
+    <script>
+      jQuery(function($) {
+        var schight = $('.front-cta').height() + 5;
+        $('.count-windows').html($('.front-cta').length);
+        $('#Mod289').click(function(){
+          $('.custom.front-cta-window-container-webinars').animate({top: '-=' + schight + 'px'});
+          $('#Mod269').css({visibility:"visible"});
+          $('.scroll-position').html($('.custom.front-cta-window-container-webinars').css('top'));
+        });
+      })
+    </script>
+  </head>
+  <body>
+<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12">
+  <div class="t3-module module frontpage-button-title-webinars " id="Mod261">
+    <div class="module-inner">
+      <div class="module-ct">
+        <div class="custom frontpage-button-title-webinars">
+          <div class="front-page-cta-title"><a href="my-typhoon/webinars">WEBINARS</a><hr></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="t3-module module frontpage-arrow-up-webinars " id="Mod269">
+    <div class="module-inner">
+      <div class="module-ct">
+        <div class="custom frontpage-arrow-up-webinars">
+          <p><img src="https://www.typhoon-hil.com/images/front-page/test/arrow_up_with_shadow.png" alt="arrow up" onmouseover="this.src='https://www.typhoon-hil.com/images/front-page/test/arrow_up_with_shadow_on_hover.png';" onmouseout="this.src='https://www.typhoon-hil.com/images/front-page/test/arrow_up_with_shadow.png';" width="140" height="37"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="t3-module module front-cta-window-container-webinars  thserved fourline " id="Mod264">
+    <div class="module-inner">
+      <div class="module-ct">
+        <div class="custom front-cta-window-container-webinars  thserved fourline">
+          <div class="front-cta">
+            <a href="http://info.typhoon-hil.com/webinar-registration-advanced-hardware-in-the-loop-techniques-for-design-testing-and-pre-certification-of-smart-inverter-controllers">
+              <img src="https://www.typhoon-hil.com/images/front-page/cta/c2/Advanced-hardware-in-the-loop-techniques.jpg" alt="Advanced Hardware in the Loop techniques" style="display: block; margin-left: auto; margin-right: auto;" width="250" height="250">
+              <div class="white-overlay">Webinar registration:<br>Advanced HIL techniques for design, testing, and pre-certification</div></a>
+          </div>
+          <div class="front-cta">
+            <a href="http://info.typhoon-hil.com/recorded-webinar-energy-accessibility-learning-from-military-operations">
+              <img src="https://www.typhoon-hil.com/images/front-page/cta/c2/webinar-energy-to-mee-our-needs.png" alt="webinar energy to mee our needs" style="display: block; margin-left: auto; margin-right: auto;" width="250" height="250">
+				<div class="white-overlay">Webinar recording:<br>Energy to Meet our Needs - Learning from Military Operations</div></a>
+          </div>
+          <div class="front-cta">
+            <a href="http://info.typhoon-hil.com/recorded-webinar-ul1741-sa-pre-certification-smart-inverters">
+              <img src="https://www.typhoon-hil.com/images/front-page/cta/c2/webinar-ul1741sa.png" alt="webinar ul1741sa" style="display: block; margin-left: auto; margin-right: auto;" width="250" height="250">
+              <div class="white-overlay">Webinar recording:<br>Pre-certify your inverter with Hardware in the Loop</div></a>
+          </div>
+          <div class="front-cta">
+            <a href="http://info.typhoon-hil.com/recorded-webinar-ait-smart-inverter-pre-certification-for-grid-codes-bdew-by-georg-lauss">
+              <img src="https://www.typhoon-hil.com/images/front-page/cta/c2/webinar-recording-smart-inverter-pre-certification.png" alt="webinar recording smart inverter pre certification" style="display: block; margin-left: auto; margin-right: auto;" width="250" height="250">
+              <div class="white-overlay">Webinar recording:<br>Smart inverter pre-certification for UL1741, BDEW, CEI 21, G83 ...</div></a>
+          </div>
+          <div class="front-cta">
+            <a href="http://info.typhoon-hil.com/recorded-webinar-psim-rapid-control-prototyping-for-grid-tied-inverter-controllers">
+              <img src="https://www.typhoon-hil.com/images/front-page/cta/c2/webinar-rapid-control-prototyping-and-hil-testing-for-grid-tied-inverters.png" alt="webinar rapid control prototyping and hil testing for grid tied inverters" style="display: block; margin-left: auto; margin-right: auto;" width="250" height="250">
+              <div class="white-overlay">Webinar recording:<br>Rapid control prototyping and HIL testing for grid tied inverters</div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="t3-module module frontpage-arrow-down-webinars " id="Mod289">
+    <div class="module-inner">
+      <div class="module-ct">
+        <div class="custom frontpage-arrow-down-webinars">
+          <p><img src="https://www.typhoon-hil.com/images/front-page/test/arrow_down.png" alt="arrow down" onmouseover="this.src='https://www.typhoon-hil.com/images/front-page/test/arrow_down_on_hover.png';" onmouseout="this.src='https://www.typhoon-hil.com/images/front-page/test/arrow_down.png';" width="140" height="37"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="t3-module module frontpage-readmore-webinars " id="Mod293">
+    <div class="module-inner">
+      <div class="module-ct">
+        <div class="custom frontpage-readmore-webinars">
+          <p><a href="my-typhoon/webinars">READ MORE</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="count-windows"></div>
+    <div class="scroll-position"></div>
+  </body>
+</html>
